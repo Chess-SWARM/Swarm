@@ -1,9 +1,9 @@
 [submodule "Swarm-infra"]
-	path = Infra
+	path = Swarm-infra
 	url = https://github.com/Chess-SWARM/Swarm-infra.git
 [submodule "Swarm-front"]
-	path = Front
+	path = Swarm-front
 	url = https://github.com/Chess-SWARM/Swarm-front.git
 [submodule "Swarm-back"]
-	path = Back
+	path = Swarm-back
 	url = https://github.com/Chess-SWARM/Swarm-back.git
