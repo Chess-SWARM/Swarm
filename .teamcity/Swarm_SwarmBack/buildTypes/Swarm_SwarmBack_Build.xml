@@ -65,7 +65,6 @@ michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
       </runner>
       <runner id="RUNNER_10" name="Docker push image" type="DockerCommand">
         <parameters>
-          <param name="command.args" value="--pull" />
           <param name="docker.command.type" value="push" />
           <param name="docker.image.namesAndTags"><![CDATA[michelstegmiller/swarm:%maven.project.artifactId%-%maven.project.version%.%build.number%
 michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
