@@ -106,6 +106,12 @@ michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
           <param name="vcsRootId" value="Swarm_SwarmBack_HttpsGithubComChessSwarmSwarmBackRefsHeadsMain" />
         </parameters>
       </extension>
+      <extension id="DockerSupport" type="DockerSupport">
+        <parameters>
+          <param name="login2registry" value="PROJECT_EXT_4" />
+          <param name="loginCheckbox" value="on" />
+        </parameters>
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>
