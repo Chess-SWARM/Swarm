@@ -54,7 +54,6 @@
       </runner>
       <runner id="RUNNER_9" name="Build back image" type="DockerCommand">
         <parameters>
-          <param name="command.args" value="--pull" />
           <param name="docker.command.type" value="build" />
           <param name="docker.image.namesAndTags"><![CDATA[michelstegmiller/swarm:%maven.project.artifactId%-%maven.project.version%.%build.number%
 michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
