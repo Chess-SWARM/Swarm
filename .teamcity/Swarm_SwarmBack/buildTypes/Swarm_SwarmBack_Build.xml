@@ -91,9 +91,7 @@ michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
     </build-triggers>
     <build-extensions>
       <extension id="perfmon" type="perfmon">
-        <parameters>
-          <param name="teamcity.perfmon.feature.enabled" value="true" />
-        </parameters>
+        <parameters />
       </extension>
       <extension id="BUILD_EXT_1" type="commit-status-publisher">
         <parameters>
