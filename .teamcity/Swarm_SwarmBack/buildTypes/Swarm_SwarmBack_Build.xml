@@ -81,8 +81,7 @@ michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
     <build-triggers>
       <build-trigger id="TRIGGER_4" type="vcsTrigger">
         <parameters>
-          <param name="branchFilter"><![CDATA[+:develop
-+:main]]></param>
+          <param name="branchFilter" value="+:main" />
           <param name="enableQueueOptimization" value="true" />
           <param name="quietPeriodMode" value="DO_NOT_USE" />
         </parameters>
