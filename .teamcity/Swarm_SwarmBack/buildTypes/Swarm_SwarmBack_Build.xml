@@ -66,9 +66,10 @@ michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
       </runner>
       <runner id="RUNNER_10" name="Docker push image" type="DockerCommand">
         <parameters>
+          <param name="command.args" value="--pull" />
           <param name="docker.command.type" value="push" />
-          <param name="docker.image.namesAndTags"><![CDATA[michelstegmiller/swarm:back-0.1.%build.number%
-michelstegmiller/swarm:back.latest]]></param>
+          <param name="docker.image.namesAndTags"><![CDATA[michelstegmiller/swarm:%maven.project.artifactId%-%maven.project.version%.%build.number%
+michelstegmiller/swarm:%maven.project.artifactId%.latest]]></param>
           <param name="docker.push.remove.image" value="true" />
           <param name="dockerfile.source" value="PATH" />
           <param name="teamcity.step.mode" value="default" />
