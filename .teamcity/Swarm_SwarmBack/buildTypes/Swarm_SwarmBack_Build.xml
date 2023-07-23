@@ -93,6 +93,16 @@ michelstegmiller/swarm:back.latest]]></param>
           <param name="teamcity.perfmon.feature.enabled" value="true" />
         </parameters>
       </extension>
+      <extension id="BUILD_EXT_1" type="commit-status-publisher">
+        <parameters>
+          <param name="github_authentication_type" value="token" />
+          <param name="github_host" value="https://api.github.com" />
+          <param name="github_oauth_user" value="Craftmusic-Git" />
+          <param name="publisherId" value="githubStatusPublisher" />
+          <param name="secure:github_access_token" value="credentialsJSON:50377bf1-a26e-4730-818f-a8870e22c1a0" />
+          <param name="vcsRootId" value="Swarm_SwarmBack_HttpsGithubComChessSwarmSwarmBackRefsHeadsMain" />
+        </parameters>
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>
